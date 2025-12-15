@@ -87,8 +87,4 @@ def calculate_area(length, width):
 room_area = calculate_area(length=5, width=12)
 print(f"The room area is: {room_area} square units.")
 
-# Function without a return value 
-def greet(name):
-    print(f"Hello, {name}!")
 
-greet("Alice")
