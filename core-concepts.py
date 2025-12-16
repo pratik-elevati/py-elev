@@ -49,7 +49,7 @@ for car in cars:
 countdown = 10
 while countdown > 0:
     print(countdown)
-    countdown -= 1 # Decrement the counter
+    countdown -= 1 
 print("Lift off")
 
 name = True
@@ -83,36 +83,17 @@ def calculate_area(length, width):
     area = length * width
     return area
 
+<<<<<<< HEAD
 # Function Call (Usage)
+room_area = calculate_area(5,2)
+=======
+# Function Call 
 room_area = calculate_area(length=5, width=12)
+>>>>>>> c486df06ce9e553fd50814ec5e1b1daf6580fec0
 print(f"The room area is: {room_area} square units.")
 
-# Function without a return value (implicitly returns None)
-def greet(name):
-    print(f"Hello, {name}!")
 
+<<<<<<< HEAD
 greet("Alice")
-
-
-# Variables to format
-name = "Charlie"
-score = 95.75
-is_passing = True
-data_size = 1234567
-
-# 1. Simple Variable Insertion
-message = f"Hello, {name}! Your score is {score}."
-print(message)
-
-# 2. Expression Evaluation
-next_score = score + 5
-print(f"Next week's potential score: {next_score / 2}")
-
-# 3. Precision Formatting (e.g., two decimal places)
-print(f"Your final grade is: {score:.2f}")
-
-# 4. Separator Formatting (e.g., comma separator for large numbers)
-print(f"The file size is: {data_size:,} bytes.")
-
-# 5. Alignment (e.g., padding/centering)
-print(f"Centered: {'Result':^20}") # Center the text in 20 spaces
+=======
+>>>>>>> c486df06ce9e553fd50814ec5e1b1daf6580fec0
