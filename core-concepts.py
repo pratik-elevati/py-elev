@@ -49,7 +49,7 @@ for car in cars:
 countdown = 10
 while countdown > 0:
     print(countdown)
-    countdown -= 1 # Decrement the counter
+    countdown -= 1 
 print("Lift off")
 
 name = True
@@ -83,12 +83,17 @@ def calculate_area(length, width):
     area = length * width
     return area
 
+<<<<<<< HEAD
 # Function Call (Usage)
 room_area = calculate_area(5,2)
+=======
+# Function Call 
+room_area = calculate_area(length=5, width=12)
+>>>>>>> c486df06ce9e553fd50814ec5e1b1daf6580fec0
 print(f"The room area is: {room_area} square units.")
 
-# Function without a return value (implicitly returns None)
-def greet(name):
-    print(f"Hello, {name}!")
 
+<<<<<<< HEAD
 greet("Alice")
+=======
+>>>>>>> c486df06ce9e553fd50814ec5e1b1daf6580fec0
